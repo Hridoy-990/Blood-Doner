@@ -1,0 +1,103 @@
+body {
+  background-color: grey;
+}
+.donerForm {
+  padding-top: 50px;
+}
+.donerForm table {
+  margin: auto;
+  border: 2px solid black;
+  padding: 80px;
+  border-radius: 15px;
+  opacity: 0.6;
+  border-color: black;
+}
+span {
+  color: red;
+  font-family: bold;
+  font-size: 3;
+}
+.donerForm tr,
+td {
+  padding: 5px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  color: black;
+}
+.donerForm #submit-button {
+  margin-left: 350px;
+  background-color: greenyellow;
+}
+.donerForm #submit-button:hover {
+  cursor: pointer;
+  background-color: brown;
+}
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: black;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(19, 9, 9);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(19, 9, 9);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
